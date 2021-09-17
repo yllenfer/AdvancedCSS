@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial,  sans-serif;
+    background-color: #6495ED;
+}
+
+li{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: right;
+   
+   
+}
+
+
+h2, h3, h4{
+    font-family: 'Lora', serif;
+    right: 100%;
+    font-size: 35px;
+    
+}
+
+h1{
+    margin-left: 45%;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+  
+}
+
+h1 a:link{
+    text-decoration: none;
+}
+
+h1 a:hover{
+    text-decoration: underline;
+}
+
+h1 a:active{
+    color: #DEB887;
+}
+
+hr {
+    width:90%;
+    margin: auto;
+}
+
+
+
+header{
+    background-color: #6495ED;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    color: #FAEBD7;
+    padding: 0;
+    padding-bottom: 5%;
+    padding-top: 8%;
+  
+}
+
+main {
+    background-color: #FAEBD7;
+    padding: 5%;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    
+   
+    
+}
+
+/* Navigation */
+
+nav a:link{
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: #FAEBD7;
+}
+
+nav a:active{
+  color: #DEB887;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+nav {
+    position: relative;
+    left: 65%;
+}
+
+
+
+
+
+
+/* articles */
+article{
+    background-color: white;
+    padding: 10%;
+    margin-top: 5%;
+    box-shadow: 5px 5px 5px grey;
+     
+}
+article a:link{
+    text-decoration: none;
+}
+article a:visited{
+    color: black;
+    
+}
+
+article a:active{
+    color: #DEB887;
+}
+
+article a:hover{
+    color: #6495ED;
+    text-decoration: underline;
+}
+
+.post-date{
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
+/* big screen */
+@media screen and (min-width: 1000px){
+
+
+      /* running into an error here */
+   header nav{ 
+       left: 30%;
+       height: 100%;
+       text-align: right;
+       
+      
+      
+  
+     }
+
+   header{
+       float: left;
+       width: 20%;
+       height: 100%;
+       height: auto; 
+       padding-top: 2%;
+       
+      
+
+   }
+
+
+   hr{
+   margin-top: 0%;
+ 
+   }
+
+
+   main{
+       margin-left: 20%;
+      
+   }
+
+ 
+
+
+   h1{
+       margin-right: 8%;
+       text-align: right;
+       font-size: 25px;
+ 
+      
+   }
+
+   
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.post-date{
+    font-size: 20px;
+}
+
+}

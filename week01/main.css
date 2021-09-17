@@ -1,204 +1,239 @@
-body {
-    margin: 0;
-    font-family: Helvetica, Arial,  sans-serif;
-    background-color: #6495ED;
-}
+/* small screen */
+@import url('https://fonts.googleapis.com/css?family=Lora');
 
-li{
-    padding: 5px;
-    font-weight: bold;
-    font-size: 15px;
-    text-align: right;
-   
-   
-}
-
-
-h2, h3, h4{
-    font-family: 'Lora', serif;
-    right: 100%;
-    font-size: 35px;
-    
-}
-
-h1{
-    margin-left: 45%;
-    font-family: 'Lora', serif;
+p a {
+    color: #6495ED;
     text-decoration: none;
+  }
   
-}
-
-h1 a:link{
+  p a:visited {
+    color: #6495ED;
     text-decoration: none;
-}
-
-h1 a:hover{
-    text-decoration: underline;
-}
-
-h1 a:active{
-    color: #DEB887;
-}
-
-hr {
-    width:90%;
-    margin: auto;
-}
-
-
-
-header{
-    background-color: #6495ED;
-    height: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    color: #FAEBD7;
-    padding: 0;
-    padding-bottom: 5%;
-    padding-top: 8%;
-  
-}
-
-main {
-    background-color: #FAEBD7;
-    padding: 5%;
-}
-
-ul{
-    text-decoration: none;
-    list-style-type: none;
-    
+  }
    
-    
-}
-
-/* Navigation */
-
-nav a:link{
-    text-decoration: none;
-}
-
-nav a:visited{
-    color: #FAEBD7;
-}
-
-nav a:active{
-  color: #DEB887;
-}
-
-nav a:hover{
-    color: white;
-    text-decoration: underline;
-}
-
-nav {
-    position: relative;
-    left: 65%;
-}
-
-
-
-
-
-
-/* articles */
-article{
-    background-color: white;
-    padding: 10%;
-    margin-top: 5%;
-    box-shadow: 5px 5px 5px grey;
-     
-}
-article a:link{
-    text-decoration: none;
-}
-article a:visited{
-    color: black;
-    
-}
-
-article a:active{
+  p a:active {
     color: #DEB887;
-}
-
-article a:hover{
+  }
+   
+  p a:hover {
     color: #6495ED;
     text-decoration: underline;
-}
-
-.post-date{
-    color: grey;
-    font-weight: bold;
-    font-size: 20px;
-    
-}
-
-
-/* big screen */
-@media screen and (min-width: 1000px){
-
-
-      /* running into an error here */
-   header nav{ 
-       left: 30%;
-       height: 100%;
-       text-align: right;
-       
-      
-      
+  }
   
-     }
+  .post-date {
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+  }
+  
+article {
+  background-color: white;
+  box-shadow: 5px 5px 5px #D3D3D3;
+  margin: 6vw .5vw;
+  padding: 35px 30px;
+}
 
-   header{
-       float: left;
-       width: 20%;
-       height: 100%;
-       height: auto; 
-       padding-top: 2%;
-       
-      
+article a:hover {
+  color: #6495ED;
+  text-decoration: underline;
+}
 
-   }
+article a:active {
+  color: #DEB887;
+  text-decoration: none; 
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body > div {
+  
+  display: flex;
+  flex-flow: column;
+  background-color: #FAEBD7;
+}
 
 
-   hr{
-   margin-top: 0%;
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+header {
+  background-color: #6495ED; 
+}
+
+ h1 {
+  font-family: Lora;
+  font-size: 40px;
+  padding: 20px 30px 10px 0;
+}
+
+ hr {
+  
+  width: 90%;
+}
+
+ ul {
+
+  margin-top: 0;
+  padding-bottom: 5px;
+}
+
+header li {
+  font-size: 3.5vw;
+  padding: 10px 30px 10px 0;
+}
+
+header a {
+  color: #FAEBD7;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+header a:visited {
+  color: #FAEBD7;
+  text-decoration: none;
+}
+
+h1 {
+  background-color: #6495ED;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: Lora;
+  font-size: 30px;
+  padding-bottom: 8%;
  
-   }
+  
+}
 
+ h2 a {
+  color: black;
+  text-decoration: none;
+} 
 
-   main{
-       margin-left: 20%;
-      
-   }
-
+h2 a:active {
+  color: #DEB887;
+}
  
+h2 a:hover {
+  color: #6495ED;
+  text-decoration: underline;
+}
 
-
-   h1{
-       margin-right: 8%;
-       text-align: right;
-       font-size: 25px;
- 
-      
-   }
-
-   
-
-img{
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-}
-
-h2{
-    font-size: 40px;
-}
-
-.post-date{
-    font-size: 20px;
-}
+    width: 70%;
 
 }
+
+li {
+  list-style-type: none;
+}
+
+main {
+  padding: 10%;
+}
+
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+nav a:active {
+  color: #DEB887;
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+ 
+}
+
+
+
+
+/* large screen */
+
+@media screen and (min-width: 50em) {
+    article {
+      margin: 3vw 5vw;
+      padding: 40px 50px;
+    }
+  
+
+   
+    header {
+      height: 100%;
+      left: 0;
+      position: fixed;
+      width: 20%;
+      
+    }
+    
+     h1 {
+      font-size: 1.8em;
+      margin-bottom: 0;
+      padding-right: 10%;
+      text-align: right;
+    }
+
+    body > div {
+        position: absolute;
+        right: 0;
+        width: 80%;
+        
+      } 
+    
+    header hr {
+      width: 70%;
+    }
+    
+    header ul {
+     /* piece of code from Helaman's code */
+        padding: 0 2.5vw 2vw 0;
+    }
+    
+    header li {
+      font-size: 15px;
+      padding: 0 0 10px 0;
+    }
+      
+    h2 {
+      font-size: 30px;
+    }
+      
+    img {
+      width: 100%;
+    }
+    
+   
+    .post-date {
+      font-size: 20px;
+    }
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+

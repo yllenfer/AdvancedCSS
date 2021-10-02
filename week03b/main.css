@@ -1,0 +1,38 @@
+header {
+  background-color: #6495ED;
+}
+
+main {
+  background-color: #FAEBD7;
+}
+
+article {
+  background-color: white;
+  text-align: center;
+  padding: 35px 30px;
+  margin: 6vw 0.5vw;
+  list-style-type: none;
+}
+article header a {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  text-decoration: none;
+}
+
+hr {
+  width: 90%;
+}
+
+@media (min-width: 50em) {
+  body > div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

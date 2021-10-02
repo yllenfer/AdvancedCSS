@@ -1,0 +1,66 @@
+$navigation-color:   #6495ED;
+$article-background: white;
+$page-background: #FAEBD7;
+$align-center: center;
+$hr-width: 90%;
+$big-screen: 50em;
+$no-text-decoration: none;
+$article-padding: 35px 30px;
+$article-margin: 6vw .5vw;
+
+
+header {
+    background-color: $navigation-color;
+    
+}
+
+main{
+    background-color: $page-background;
+}
+
+article{
+    background-color: $article-background;
+    text-align: $align-center;
+    padding: $article-padding;
+    margin:$article-margin;
+    list-style-type: $no-text-decoration;
+
+    & 
+
+    header a{
+        list-style: $no-text-decoration;
+    }
+    
+}
+
+* {
+    margin:  0;
+    text-decoration: $no-text-decoration;
+}
+
+hr{
+ width: $hr-width;
+ 
+}
+
+
+
+@media (min-width: $big-screen) {
+     
+    @mixin flex-container() {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        
+        
+    }
+      
+    
+    body > div {
+        @include flex-container;        
+    }
+ }
+
+
+

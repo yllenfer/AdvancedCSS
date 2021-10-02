@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 $navigation-color:   #6495ED;
 $article-background: white;
 $page-background: #FAEBD7;
@@ -6,57 +7,120 @@ $hr-width: 90%;
 $big-screen: 50em;
 $no-text-decoration: none;
 $article-padding: 35px 30px;
-$article-margin: 6vw .5vw;
+$article-margin: 3vw 5vw;
+$top-margin: 50%;
+$display-flex: flex;
+$margin-left: 5%;
+$right-aligh: right;
+$left-align: left;
+$visited: #FAEBD7;
+$active: #DEB887;
+$decoration: underline;
+$magin-top: 20%;
+$padding-nav: 20px 30px 10px 0;
+$height: 40%;
+$solid-border: solid;
+$box-shadow: 5px 5px 5px #D3D3D3;
+
 
 
 header {
+    hr{
+        width: $hr-width;
+        text-align: $align-center;
+        margin-left: $margin-left;
+        
+        
+       }
+
+    li {
+        list-style-type: $no-text-decoration;
+      }
+
+    h1{
+        background-color: 'Lora';
+        text-align: $right-aligh;
+        padding: $padding-nav;
+        
+    }
+
+    nav{
+        text-align: $right-aligh;
+        color: $visited;
+        padding: $padding-nav;
+        
+        
+        
+    }
+        
+    nav li :hover{
+        color: $article-background;
+        text-decoration: $decoration;   
+    }
+
+    nav:active{
+        color: $active;
+    } 
+    
+    
     background-color: $navigation-color;
     
+    
 }
-
 main{
     background-color: $page-background;
+    border-style: $solid-border;
+    border-color: $page-background;
+   
+    
+  
 }
 
 article{
     background-color: $article-background;
     text-align: $align-center;
+    margin: $article-margin ;
     padding: $article-padding;
-    margin:$article-margin;
-    list-style-type: $no-text-decoration;
+    box-shadow: $box-shadow;
+    width: 70%;
+    margin-left: 10%;
+    
+    
 
-    & 
+    .post-date {
+        text-align: $left-align;
+    }
 
-    header a{
-        list-style: $no-text-decoration;
+    h2{
+        text-align: $left-align;
+    }
+
+    img{
+        width: 50%;
     }
     
 }
 
+
+
 * {
     margin:  0;
     text-decoration: $no-text-decoration;
+    margin: 0;
+    padding: 0;
 }
 
-hr{
- width: $hr-width;
- 
-}
 
 
 
 @media (min-width: $big-screen) {
      
     @mixin flex-container() {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
+        display: $display-flex;
+        right: 0; 
         
-        
+          
     }
-      
-    
     body > div {
         @include flex-container;        
     }

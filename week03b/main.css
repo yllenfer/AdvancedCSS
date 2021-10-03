@@ -9,6 +9,7 @@ header hr {
 }
 header li {
   list-style-type: none;
+  padding: 2%;
 }
 header h1 {
   background-color: "Lora";
@@ -43,11 +44,16 @@ article {
   box-shadow: 5px 5px 5px #D3D3D3;
   width: 70%;
   margin-left: 10%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+article h1 {
+  font-family: "Lora";
 }
 article h2 {
   text-decoration: none;
   text-align: left;
   padding: 5%;
+  font-family: "Lora";
 }
 article h2 :visited {
   color: black;
@@ -90,6 +96,10 @@ article p :hover {
   body > div {
     display: flex;
     right: 0;
+  }
+  body > div header li {
+    padding: 5%;
+    font-size: large;
   }
 }
 

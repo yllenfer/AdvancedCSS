@@ -9,6 +9,7 @@ $date-color: grey;
 $visitedtwo: #6495ED;
 $color-black: black;
 $big-screen: 50em;
+$font-body: Helvetica, Arial, sans-serif;
 
 
 
@@ -20,10 +21,12 @@ header {
         margin-left: 5%;
         
         
+        
        }
 
     li {
         list-style-type: none;
+        padding: 2%;
       }
 
     h1{
@@ -72,11 +75,17 @@ article{
     box-shadow: 5px 5px 5px #D3D3D3;
     width: 70%;
     margin-left: 10%;
+    font-family: $font-body;
+
+    h1{
+        font-family: 'Lora';
+    }
   
     h2 {
         text-decoration: none;
         text-align: left;
         padding: 5%;
+        font-family: 'Lora';
 
         & :visited{
             color: black;
@@ -144,7 +153,17 @@ article{
     @mixin flex-container() {
         display: flex;
         right: 0; 
-        
+    
+    header{
+
+        li{
+            padding: 5%;
+            font-size: large;
+        }
+          
+
+    }
+      
           
     }
     body > div {

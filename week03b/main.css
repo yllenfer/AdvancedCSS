@@ -15,23 +15,24 @@ header h1 {
   text-align: right;
   padding: 20px 30px 10px 0;
 }
-header nav {
-  text-align: right;
-  color: #FAEBD7;
-  padding: 20px 30px 10px 0;
-}
-header nav li :hover {
-  color: white;
-  text-decoration: underline;
-}
-header nav:active {
-  color: #DEB887;
-}
 
 main {
   background-color: #FAEBD7;
   border-style: solid;
   border-color: #FAEBD7;
+}
+
+nav {
+  text-align: right;
+  color: #FAEBD7;
+  padding: 20px 30px 10px 0;
+}
+nav :hover {
+  color: white;
+  text-decoration: underline;
+}
+nav :active {
+  color: #DEB887;
 }
 
 article {
@@ -43,14 +44,39 @@ article {
   width: 70%;
   margin-left: 10%;
 }
+article h2 {
+  text-decoration: none;
+  text-align: left;
+  padding: 5%;
+}
+article h2 :visited {
+  color: black;
+}
+article h2 :active {
+  color: #DEB887;
+}
+article h2 :hover {
+  color: #6495ED;
+}
 article .post-date {
   text-align: left;
-}
-article h2 {
-  text-align: left;
+  color: grey;
+  font-weight: bold;
 }
 article img {
   width: 50%;
+}
+article p {
+  padding: 5%;
+}
+article p :visited {
+  color: #6495ED;
+}
+article p :active {
+  color: #DEB887;
+}
+article p :hover {
+  text-decoration: underline;
 }
 
 * {

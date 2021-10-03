@@ -1,122 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+//Variables
 $navigation-color:   #6495ED;
 $article-background: white;
 $page-background: #FAEBD7;
-$align-center: center;
-$hr-width: 90%;
-$big-screen: 50em;
-$no-text-decoration: none;
-$article-padding: 35px 30px;
-$article-margin: 3vw 5vw;
-$top-margin: 50%;
-$display-flex: flex;
-$margin-left: 5%;
-$right-aligh: right;
-$left-align: left;
 $visited: #FAEBD7;
 $active: #DEB887;
-$decoration: underline;
-$magin-top: 20%;
-$padding-nav: 20px 30px 10px 0;
-$height: 40%;
-$solid-border: solid;
-$box-shadow: 5px 5px 5px #D3D3D3;
+$date-color: grey;
+$visitedtwo: #6495ED;
+$color-black: black;
+$big-screen: 50em;
 
 
 
+//Nesting
 header {
     hr{
-        width: $hr-width;
-        text-align: $align-center;
-        margin-left: $margin-left;
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
         
         
        }
 
     li {
-        list-style-type: $no-text-decoration;
+        list-style-type: none;
       }
 
     h1{
         background-color: 'Lora';
-        text-align: $right-aligh;
-        padding: $padding-nav;
+        text-align: right;
+        padding: 20px 30px 10px 0;
         
     }
 
-    nav{
-        text-align: $right-aligh;
-        color: $visited;
-        padding: $padding-nav;
-        
-        
-        
-    }
-        
-    nav li :hover{
-        color: $article-background;
-        text-decoration: $decoration;   
-    }
-
-    nav:active{
-        color: $active;
-    } 
-    
-    
-    background-color: $navigation-color;
-    
-    
+    background-color: $navigation-color;   
+   
 }
+
 main{
     background-color: $page-background;
-    border-style: $solid-border;
+    border-style: solid;
     border-color: $page-background;
    
     
   
 }
 
+
+nav{
+    text-align: right;
+    color: $visited;
+    padding: 20px 30px 10px 0;   
+    
+    & :hover{
+        color: $article-background;
+        text-decoration: underline;  
+}
+
+    & :active{
+    color: $active;
+}
+   
+}  
+ 
+
 article{
     background-color: $article-background;
-    text-align: $align-center;
-    margin: $article-margin ;
-    padding: $article-padding;
-    box-shadow: $box-shadow;
+    text-align: center;
+    margin: 3vw 5vw;
+    padding: 35px 30px;
+    box-shadow: 5px 5px 5px #D3D3D3;
     width: 70%;
     margin-left: 10%;
-    
-    
+  
+    h2 {
+        text-decoration: none;
+        text-align: left;
+        padding: 5%;
+
+        & :visited{
+            color: black;
+
+        }
+
+        & :active{
+            color: $active;
+        }
+
+        & :hover{
+            color: $visitedtwo ;
+        }
+
+
+
+    }
 
     .post-date {
-        text-align: $left-align;
+        text-align: left;
+        color: $date-color;
+        font-weight: bold;
     }
 
-    h2{
-        text-align: $left-align;
-    }
 
     img{
         width: 50%;
+    }   
+
+
+     p{
+         padding: 5%;
+    //    font-weight: bolder;
+    //    font-size: 40px;
+
+
+       & :visited{
+           color: $visitedtwo;
+       }
+
+       & :active{
+         color: $active;  
+       }
+
+       & :hover{
+           text-decoration: underline;
+       }
     }
+
     
 }
 
-
-
 * {
     margin:  0;
-    text-decoration: $no-text-decoration;
+    text-decoration: none;
     margin: 0;
     padding: 0;
 }
 
 
 
-
+// Mixin
 @media (min-width: $big-screen) {
      
     @mixin flex-container() {
-        display: $display-flex;
+        display: flex;
         right: 0; 
         
           
@@ -125,6 +151,5 @@ article{
         @include flex-container;        
     }
  }
-
 
 

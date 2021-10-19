@@ -1,0 +1,175 @@
+
+main.css
+   5:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+   5:12  ×  Expected "#6495ED" to be "#6495ed"                                        color-hex-case                               
+   6:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+   7:3   ×  Expected indentation of 0 spaces                                          indentation                                  
+   8:2   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+   9:3   ×  Expected indentation of 0 spaces                                          indentation                                  
+  10:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+  10:12  ×  Expected "#6495ED" to be "#6495ed"                                        color-hex-case                               
+  11:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+  12:3   ×  Expected indentation of 0 spaces                                          indentation                                  
+  13:3   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+  14:3   ×  Expected indentation of 0 spaces                                          indentation                                  
+  15:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+  15:12  ×  Expected "#DEB887" to be "#deb887"                                        color-hex-case                               
+  16:3   ×  Expected indentation of 0 spaces                                          indentation                                  
+  17:3   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+  18:3   ×  Expected indentation of 0 spaces                                          indentation                                  
+  19:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+  19:12  ×  Expected "#6495ED" to be "#6495ed"                                        color-hex-case                               
+  20:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+  21:3   ×  Expected indentation of 0 spaces                                          indentation                                  
+  22:2   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+  23:3   ×  Expected indentation of 0 spaces                                          indentation                                  
+  24:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+  25:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+  26:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+  27:3   ×  Expected indentation of 0 spaces                                          indentation                                  
+  28:2   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+  31:27  ×  Expected "#D3D3D3" to be "#d3d3d3"                                        color-hex-case                               
+  32:15  ×  Expected a leading zero                                                   number-leading-zero                          
+  37:10  ×  Expected "#6495ED" to be "#6495ed"                                        color-hex-case                               
+  42:10  ×  Expected "#DEB887" to be "#deb887"                                        color-hex-case                               
+  43:25  ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+  43:26  ×  Expected newline before "}" of a multi-line block                         block-closing-brace-newline-before           
+  55:2   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+  56:3   ×  Unexpected empty line before declaration                                  declaration-empty-line-before                
+  58:21  ×  Expected "#FAEBD7" to be "#faebd7"                                        color-hex-case                               
+  61:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+  62:1   ×  Expected selector "a:hover" to come before selector "p a:visited"         no-descending-specificity                    
+  62:1   ×  Expected selector "a:hover" to come before selector "p a:active"          no-descending-specificity                    
+  62:1   ×  Expected selector "a:hover" to come before selector "p a:hover"           no-descending-specificity                    
+  62:1   ×  Expected selector "a:hover" to come before selector "article a:hover"     no-descending-specificity                    
+  62:1   ×  Expected selector "a:hover" to come before selector "article a:active"    no-descending-specificity                    
+  66:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+  67:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+  68:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+  70:21  ×  Expected "#6495ED" to be "#6495ed"                                        color-hex-case                               
+  70:29  ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+  70:30  ×  Expected newline before "}" of a multi-line block                         block-closing-brace-newline-before           
+  73:2   ×  Expected indentation of 0 spaces                                          indentation                                  
+  74:16  ×  Unexpected missing generic font family                                    font-family-no-missing-generic-family-keyword
+  79:2   ×  Expected indentation of 0 spaces                                          indentation                                  
+  80:2   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+  81:3   ×  Unexpected empty line before declaration                                  declaration-empty-line-before                
+  84:2   ×  Expected indentation of 0 spaces                                          indentation                                  
+  86:3   ×  Unexpected empty line before declaration                                  declaration-empty-line-before                
+  95:1   ×  Expected selector "header a" to come before selector "p a:visited"        no-descending-specificity                    
+  95:1   ×  Expected selector "header a" to come before selector "p a:active"         no-descending-specificity                    
+  95:1   ×  Expected selector "header a" to come before selector "p a:hover"          no-descending-specificity                    
+  95:1   ×  Expected selector "header a" to come before selector "article a:hover"    no-descending-specificity                    
+  95:1   ×  Expected selector "header a" to come before selector "article a:active"   no-descending-specificity                    
+  95:1   ×  Expected selector "header a" to come before selector "a:hover"            no-descending-specificity                    
+  96:10  ×  Expected "#FAEBD7" to be "#faebd7"                                        color-hex-case                               
+ 103:10  ×  Expected "#FAEBD7" to be "#faebd7"                                        color-hex-case                               
+ 107:1   ×  Unexpected duplicate selector "h1", first used at line 73                 no-duplicate-selectors                       
+ 108:21  ×  Expected "#6495ED" to be "#6495ed"                                        color-hex-case                               
+ 111:3   ×  Expected newline after ","                                                selector-list-comma-newline-after            
+ 111:7   ×  Expected newline after ","                                                selector-list-comma-newline-after            
+ 111:11  ×  Expected newline after ","                                                selector-list-comma-newline-after            
+ 111:15  ×  Expected newline after ","                                                selector-list-comma-newline-after            
+ 112:16  ×  Unexpected missing generic font family                                    font-family-no-missing-generic-family-keyword
+ 115:1   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 116:2   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 117:1   ×  Unexpected empty line before closing brace                                block-closing-brace-empty-line-before        
+ 119:2   ×  Expected selector "h2 a" to come before selector "p a:visited"            no-descending-specificity                    
+ 119:2   ×  Expected selector "h2 a" to come before selector "p a:active"             no-descending-specificity                    
+ 119:2   ×  Expected selector "h2 a" to come before selector "p a:hover"              no-descending-specificity                    
+ 119:2   ×  Expected selector "h2 a" to come before selector "article a:hover"        no-descending-specificity                    
+ 119:2   ×  Expected selector "h2 a" to come before selector "article a:active"       no-descending-specificity                    
+ 119:2   ×  Expected selector "h2 a" to come before selector "a:hover"                no-descending-specificity                    
+ 119:2   ×  Expected selector "h2 a" to come before selector "header a:visited"       no-descending-specificity                    
+ 119:2   ×  Expected indentation of 0 spaces                                          indentation                                  
+ 122:2   ×  Expected newline after "}"                                                block-closing-brace-newline-after            
+ 122:2   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 125:10  ×  Expected "#DEB887" to be "#deb887"                                        color-hex-case                               
+ 127:1   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 129:10  ×  Expected "#6495ED" to be "#6495ed"                                        color-hex-case                               
+ 134:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 135:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 136:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 137:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 139:1   ×  Unexpected empty line before closing brace                                block-closing-brace-empty-line-before        
+ 141:1   ×  Expected selector "li" to come before selector "header li"                no-descending-specificity                    
+ 149:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 156:10  ×  Expected "#DEB887" to be "#deb887"                                        color-hex-case                               
+ 162:1   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 163:1   ×  Unexpected empty line before closing brace                                block-closing-brace-empty-line-before        
+ 165:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 166:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 167:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 171:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 172:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 173:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 174:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 175:2   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 177:3   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 178:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 179:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 180:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 181:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 182:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 183:6   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 184:5   ×  Unexpected empty line before closing brace                                block-closing-brace-empty-line-before        
+ 184:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 185:4   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 186:6   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 187:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 188:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 189:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 190:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 191:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 193:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 194:9   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 195:9   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 196:9   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 197:8   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 198:7   ×  Unexpected empty line before closing brace                                block-closing-brace-empty-line-before        
+ 198:7   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 198:8   ×  Expected newline after "}"                                                block-closing-brace-newline-after            
+ 198:8   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 199:4   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 200:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 201:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 202:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 203:4   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 204:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 205:6   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 206:9   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 207:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 208:4   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 209:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 210:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 211:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 212:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 213:6   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 214:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 215:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 216:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 217:6   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 218:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 219:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 220:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 221:4   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 222:3   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 223:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 224:7   ×  Expected indentation of 4 spaces                                          indentation                                  
+ 225:5   ×  Expected indentation of 2 spaces                                          indentation                                  
+ 226:2   ×  Unexpected whitespace at end of line                                      no-eol-whitespace                            
+ 227:3   ×  Unexpected empty line before closing brace                                block-closing-brace-empty-line-before        
+ 227:3   ×  Expected indentation of 0 spaces                                          indentation                                  
+ 229:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 230:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 231:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 232:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 233:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 234:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 235:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 236:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 237:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 238:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 239:1   ×  Expected no more than 1 empty line                                        max-empty-lines                              
+ 240:1   ×  Expected no more than 1 empty line                                        max-empty-lines
+

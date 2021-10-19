@@ -1,0 +1,72 @@
+@import 'partials/reset';
+@import 'partials/prefix-mixins';
+@import 'partials/layout'; // responsive grid and media queries
+
+// color palette - these colors will be the color swatches of the Colors section
+
+$color-1: #ff2a6d; // Pink 
+$color-2: #d1f7ff; // Light Blue - Text Color 
+$color-3: #05d9e8; // blue
+$color-4: #005678; // ble
+$color-5: #01012b; // Dark Blue
+
+// additional colors
+
+$success: $color-3; // green
+$alert: red; // red
+
+// fonts
+$primary-font: "Orbitron", Arial, Helvetica, sans-serif, serif;
+$secondary-font: 'Montserrat', sans-serif;
+
+/* -------------------------------- 
+
+xBackground 
+
+-------------------------------- */
+
+@import 'partials/background';
+
+/* -------------------------------- 
+
+xPatterns
+
+-------------------------------- */
+
+@import 'partials/patterns';
+
+/* -------------------------------- 
+
+xNavigation 
+
+-------------------------------- */
+
+@import 'partials/_navigation.scss';
+
+/* -------------------------------- 
+
+xPage title 
+
+-------------------------------- */
+
+@import 'partials/title';
+
+/* -------------------------------- 
+
+xTypography 
+
+-------------------------------- */
+
+@import 'partials/typography';
+
+/* -------------------------------- 
+
+xButtons 
+
+-------------------------------- */
+
+@import 'partials/buttons';
+
+
+
+@import 'partials/basic-style';

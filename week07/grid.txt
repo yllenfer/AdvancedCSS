@@ -1,0 +1,89 @@
+//variables to setup basic size and shape of the card and pips
+$col : 100% / 8;
+$loop-start-column: 1;
+$loop-end-column: 8 + 1;
+$card-width: 60vw;
+$card-height: $card-width * 1.4;
+$number: $card-width * 0.1;
+$size: $card-width / 5;
+
+
+$row : 100% / 8;
+$begin: 1;
+$rep: 8 +1;
+
+@mixin col($span-num) {
+    grid-column: $span-num;
+}
+
+@mixin row($span-num) {
+    grid-row: $span-num;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(8, $col);
+    grid-template-rows: repeat(8, $row ); 
+    align-items: center;
+ 
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid grey;
+    height: $card-height;
+    width: $card-width;
+    margin: 20%;
+    box-shadow: 2px 2px 4px grey;
+    
+}
+
+.card-front {
+    padding: 0.3em;
+}
+
+
+
+.number {
+    text-align: center;
+    font-size: $number;
+    & > .icon {
+        width: $size * 0.4;
+        height: $size *.6;
+    }
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.row{
+    height: 100%;
+    margin: 5%;
+}
+
+.icon {
+    width: $size;
+    height: $size;
+}
+
+
+@for $index from $begin to $loop-end-column {
+    .col-#{$index} {
+        @include col($index);
+    }
+}
+
+@for $index from $begin to $rep{
+    .row-#{$index} {
+        @include row($index);
+    }
+}

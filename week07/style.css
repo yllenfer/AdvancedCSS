@@ -1,0 +1,18 @@
+header {
+    background: #222629;
+    color: whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav {
+    background: #222629;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -33vw;
+    transition: top 500ms;
+}
+.open {
+    top: 9vw;
+}
